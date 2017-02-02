@@ -1,13 +1,26 @@
 {
-  "name": "foodie",
-  "version": "0.0.1",
-  "description": "Simple testing Node server",
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "bot for slack",
   "main": "app.js",
-  "author": "Simon Reimler",
-  "license": "MIT",
   "dependencies": {
-    "express": "^4.x.x",
     "body-parser": "^1.x.x",
+    "express": "^4.14.1",
     "request": "2.56.x"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joelkx/joelkxbot.git"
+  },
+  "author": "joelk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joelkx/joelkxbot/issues"
+  },
+  "homepage": "https://github.com/Joelkx/joelkxbot#readme"
 }
